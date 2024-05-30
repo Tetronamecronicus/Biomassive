@@ -4,7 +4,7 @@ using Robust.Client.GameObjects;
 namespace Content.Client.Dice;
 
 public sealed class DiceSystem : SharedDiceSystem
-{
+{//
     protected override void UpdateVisuals(EntityUid uid, DiceComponent? die = null)
     {
         if (!Resolve(uid, ref die) || !TryComp(uid, out SpriteComponent? sprite))
