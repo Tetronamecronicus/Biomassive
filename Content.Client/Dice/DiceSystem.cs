@@ -3,7 +3,7 @@ using Robust.Client.GameObjects;
 
 namespace Content.Client.Dice;
 
-public sealed class DiceSystem : SharedDiceSystem
+public sealed class DiceSystem : SharedDiceSystem//
 {
     protected override void UpdateVisuals(EntityUid uid, DiceComponent? die = null)
     {
