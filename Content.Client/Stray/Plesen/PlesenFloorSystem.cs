@@ -1,6 +1,6 @@
-using Content.Shared.Stray.Plesen.PlesenFloor;
+using Content.Shared.Stray.Plesen;//
 
-namespace Content.Client.Stray.Plesen.PlesenFloor;
+namespace Content.Client.Stray.Plesen;
 
 public sealed class PlesenFloorSystem : SharedPlesenFloorSystem
 {

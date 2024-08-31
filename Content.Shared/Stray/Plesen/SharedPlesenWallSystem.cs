@@ -1,4 +1,4 @@
-namespace Content.Shared.Stray.Plesen.PlesenWall;
+namespace Content.Shared.Stray.Plesen;//
 public abstract class SharedPlesenWallSystem : EntitySystem
 {
 }

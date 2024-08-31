@@ -7,23 +7,35 @@ namespace Content.Shared.Stray.Utilitys.LogMessageSender;
 
 public abstract class SharedLogMessageSenderSystem : EntitySystem
 {
-    public virtual void LogError(string message){
+    public override void Initialize()
+    {
+        base.Initialize();
+    }
+    /*
+    public virtual void LogError(string message)
+    {
         Log.Error(message);
     }
-    public virtual void LogWarn(string message){
+    public virtual void LogWarn(string message)
+    {
         Log.Warning(message);
     }
-    public virtual void LogInfo(string message){
+    public virtual void LogInfo(string message)
+    {
         Log.Info(message);
     }
-    public virtual void LogFatal(string message){
+    public virtual void LogFatal(string message)
+    {
         Log.Fatal(message);
     }
-    public virtual void LogDebug(string message){
+    public virtual void LogDebug(string message)
+    {
         Log.Debug(message);
     }
-    public virtual void LogVerbose(string message){
+    public virtual void LogVerbose(string message)
+    {
         Log.Verbose(message);
     }
+    */
 }
 

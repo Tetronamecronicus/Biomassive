@@ -1,6 +1,6 @@
-using Content.Shared.Stray.Plesen.PlesenCocone;
+using Content.Shared.Stray.Plesen;//
 
-namespace Content.Client.Stray.Plesen.PlesenCocone;
+namespace Content.Client.Stray.Plesen;
 
 public sealed class PlesenCoconeSystem : SharedPlesenCoconeSystem
 {

@@ -1,4 +1,4 @@
-namespace Content.Shared.Stray.Plesen.PlesenCore;
+namespace Content.Shared.Stray.Plesen;//
 
 public abstract class SharedPlesenCoreSystem : EntitySystem
 {
