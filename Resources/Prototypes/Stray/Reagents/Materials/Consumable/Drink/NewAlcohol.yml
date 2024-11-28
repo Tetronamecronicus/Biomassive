@@ -19,7 +19,7 @@
         amount: 0.08
 
 - type: reagent
-  id: BiomassDrink
+  id: BiomassDrink2
   name: reagent-name-biomassdrink
   parent: BaseAlcohol
   group: Biological
